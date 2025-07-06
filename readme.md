@@ -61,6 +61,13 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 - `requirements.txt`: Lista de dependências do projeto.
 
 ---
+## GCLOUD
+```sh
+   gcloud auth login
+   gcloud config set project PROJECT_ID
+   gcloud run deploy --port=8000
+```
+---
 
 - O banco de dados SQLite será criado automaticamente como `escola.db` na primeira execução.
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
